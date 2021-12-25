@@ -54,7 +54,7 @@ const PoolsDetail = ({
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const web3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545");
+  const web3 = new Web3("https://bsc-dataseed.binance.org/");
   //const ido = data[poolId];
   console.log(poolId);
   // const idos =idoInfo.filter((idodata)=>{if(idodata==poolId){console.log(idodata)}});
