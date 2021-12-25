@@ -34,7 +34,7 @@ const IdoCard = ({ useDarkMode, account, active }) => {
     sale: "54000",
     total: "68000",
   };
-  const web3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545");
+  const web3 = new Web3("https://bsc-dataseed.binance.org/");
   const [partrate, setpartrate] = useState(0);
 
   let categoriess = ongoingpool;
