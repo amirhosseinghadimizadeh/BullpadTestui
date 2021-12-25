@@ -66,7 +66,7 @@ const PoolsDetail = ({
   //async ()=>{var blocknumber=await library.eth.getBlockNumber();if(blocknumber<idos.startblock){document.getElementsByClassName("counttime")[0].textContent="start in:";}}
   async function status() {
     let blocknumber = await new Web3(
-      "https://data-seed-prebsc-1-s1.binance.org:8545"
+      "https://bsc-dataseed.binance.org/"
     ).eth.getBlockNumber();
     if (blocknumber < idos.startblock) {
       counttime.current.innerText = "Start in:";
@@ -79,7 +79,7 @@ const PoolsDetail = ({
 
   async function Vestingstatus() {
     let blocknumber = await new Web3(
-      "https://data-seed-prebsc-1-s1.binance.org:8545"
+      "https://bsc-dataseed.binance.org/"
     ).eth.getBlockNumber();
     if (blocknumber < idos.vestingblock) {
       vestingcounttime.current.innerText = "";
@@ -126,7 +126,7 @@ const PoolsDetail = ({
   }
 
   async function getBlockNumber() {
-    return await new Web3("https://data-seed-prebsc-1-s1.binance.org:8545").eth
+    return await new Web3("https://bsc-dataseed.binance.org/").eth
       .getBlockNumber()
       .then((value) => {
        
@@ -155,7 +155,7 @@ const PoolsDetail = ({
     } else {
     
     }
-    new Web3("https://data-seed-prebsc-1-s1.binance.org:8545").eth
+    new Web3("https://bsc-dataseed.binance.org/").eth
       .getBlockNumber()
       .then((value) => {
         setBlockNumberss(value);
