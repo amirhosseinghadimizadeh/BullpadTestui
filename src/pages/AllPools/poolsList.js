@@ -15,7 +15,7 @@ function classNames(...classes) {
 const PoolsList = (props) => {
   // console.log(`test for data fetching ${ongoingpool}`);
   // console.log(`dark mode is = ${props.darkMode}`);
-  const web3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545");
+  const web3 = new Web3("https://bsc-dataseed.binance.org/");
   var [data, setData] = useState(0);
   let [changeUseEffect, setChangeUseEffect] = useState();
 
