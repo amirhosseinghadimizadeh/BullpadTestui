@@ -61,8 +61,8 @@ const idoInfo = [
   },
   {
     id: 0,
-    title: "ForOffer",
-    name: "ForOffer",
+    title: "FOFF",
+    name: "FOFF",
     img: "/image/coins/dragon.jpg",
     contract: "0x99F481B71be57504F52339D3DA20Dc57AF9478Ae",
     idocontract: "0xaf2ff01a9d44b324c13928d7194305115496a573",
