@@ -4,7 +4,7 @@ import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 const networkConnector = new NetworkConnector({
   urls: {
     1: "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
-    56: "https://bsc-dataseed1.ninicoin.io",
+    56: "https://bsc-dataseed.binance.org/",
     97: "https://data-seed-prebsc-1-s1.binance.org:8545"
   },
   defaultChainId: 97
